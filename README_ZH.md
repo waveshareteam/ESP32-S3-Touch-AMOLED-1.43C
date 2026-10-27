@@ -56,10 +56,10 @@
 | [02_WIFI_AP](examples/arduino/examples/02_WIFI_AP/README_ZH.md) | 建立 2.4 GHz Wi-Fi 热点 |
 | [03_WIFI_STA](examples/arduino/examples/03_WIFI_STA/README_ZH.md) | 连接 2.4 GHz Wi-Fi 网络 |
 | [04_Audio_Test](examples/arduino/examples/04_Audio_Test/README_ZH.md) | 通过 BOOT 按键录音、回放及播放内置音乐 |
-| [05_LVGL_V8_Test](examples/arduino/examples/05_LVGL_V8_Test/README_ZH.md) | LVGL 8 控件演示与自动亮度循环 |
+| [05_LVGL_Widgets](examples/arduino/examples/05_LVGL_Widgets/README_ZH.md) | LVGL 9 控件演示与自动亮度循环 |
 | [06_LVGL_V9_Test](examples/arduino/examples/06_LVGL_V9_Test/README_ZH.md) | LVGL 9 控件演示与自动亮度循环 |
 
-Arduino 库位于 [`examples/arduino/libraries`](examples/arduino/libraries/)。请按示例说明安装对应版本的 LVGL；同一个 Arduino 库目录中不能同时安装 LVGL 8 和 LVGL 9。
+Arduino 库位于 [`examples/arduino/libraries`](examples/arduino/libraries/)。将 `lvgl/`、`lv_conf.h` 和 `OneButton/` 复制到 Arduino 草图目录的 `libraries/` 文件夹；所有 Arduino 显示示例统一使用 LVGL 9.3.0。
 
 ## 🛠️ 开发环境
 

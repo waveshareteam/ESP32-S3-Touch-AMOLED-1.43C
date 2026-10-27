@@ -12,7 +12,7 @@ ESP32-S3-Touch-AMOLED-1.43C and a USB data cable.
 
 ## How to Run
 
-Install Arduino-ESP32 **3.3.0** in Arduino IDE. Select **ESP32S3 Dev Module**, 8 MB Flash, OPI PSRAM, USB CDC On Boot Enabled, and the Huge APP partition scheme; open `04_Audio_Test.ino` and upload. Copy `lvgl` and `lv_conf.h` from `../../libraries/lvgl9/` into your Arduino `libraries/` folder; keep only this LVGL version installed. Also copy `../../libraries/OneButton/` for the audio example. Open the serial monitor at **115200** baud.
+Install Arduino-ESP32 **3.3.0** in Arduino IDE. Select **ESP32S3 Dev Module**, 8 MB Flash, OPI PSRAM, USB CDC On Boot Enabled, and the Huge APP partition scheme; open `04_Audio_Test.ino` and upload. Copy `lvgl` and `lv_conf.h` from `../../libraries/` into your Arduino `libraries/` folder; keep only this LVGL version installed. Also copy `../../libraries/OneButton/` for the audio example. Open the serial monitor at **115200** baud.
 
 ## Expected Result
 

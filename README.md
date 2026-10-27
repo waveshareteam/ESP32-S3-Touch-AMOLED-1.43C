@@ -56,10 +56,10 @@ The desktop includes Display Test, Settings, Xiaozhi, Touch Test, Weather, Music
 | [02_WIFI_AP](examples/arduino/examples/02_WIFI_AP/) | 2.4 GHz Wi-Fi access point |
 | [03_WIFI_STA](examples/arduino/examples/03_WIFI_STA/) | Connect to a 2.4 GHz Wi-Fi network |
 | [04_Audio_Test](examples/arduino/examples/04_Audio_Test/) | BOOT-controlled recording, replay and built-in music |
-| [05_LVGL_V8_Test](examples/arduino/examples/05_LVGL_V8_Test/) | LVGL 8 widgets and automatic brightness cycle |
+| [05_LVGL_Widgets](examples/arduino/examples/05_LVGL_Widgets/) | LVGL 9 widgets and automatic brightness cycle |
 | [06_LVGL_V9_Test](examples/arduino/examples/06_LVGL_V9_Test/) | LVGL 9 widgets and automatic brightness cycle |
 
-Arduino libraries are in [`examples/arduino/libraries`](examples/arduino/libraries/). Install only the LVGL version specified by the example; LVGL 8 and LVGL 9 cannot be installed together in the same Arduino library folder.
+Arduino libraries are in [`examples/arduino/libraries`](examples/arduino/libraries/). Copy `lvgl/`, `lv_conf.h`, and `OneButton/` to your Arduino sketchbook libraries folder. All Arduino display examples use LVGL 9.3.0.
 
 ## 🛠️ Development Environment
 
