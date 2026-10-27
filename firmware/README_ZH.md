@@ -2,15 +2,13 @@
 
 [English](README.md) | [简体中文](README_ZH.md)
 
-以下固件均为合并镜像，从 **0x0** 地址烧录。选择 **ESP32-S3 / 8 MB Flash**，并使用 USB 数据线连接开发板；日期最新的出厂固件列在最前。
+本目录提供最新实测出厂固件，为合并镜像，从 **0x0** 地址烧录。选择 **ESP32-S3 / 8 MB Flash**，并使用 USB 数据线连接开发板。
 
 | 文件 | 用途 |
 | --- | --- |
 | [ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20261027.bin](ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20261027.bin) | 新版出厂桌面，9 个 APP，集成小智语音交互 |
-| [ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_v1.0.bin](ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_v1.0.bin) | 原有出厂固件 v1.0 |
-| [ESP32-S3-Touch-AMOLED-1.43C_XiaoZhi_v2.2.6.bin](ESP32-S3-Touch-AMOLED-1.43C_XiaoZhi_v2.2.6.bin) | 原有独立小智固件 v2.2.6，会替换桌面固件 |
 
-安装 esptool 后，在本目录运行以下命令，将 `<PORT>` 替换为电脑识别到的串口。擦除会清除原固件、配网与激活数据；切换旧版与新版时建议先完整擦除。
+安装 esptool 后，在本目录运行以下命令，将 `<PORT>` 替换为电脑识别到的串口。首次安装建议先完整擦除，这会清除原固件、配网与激活数据。
 
 ```sh
 python -m pip install esptool
