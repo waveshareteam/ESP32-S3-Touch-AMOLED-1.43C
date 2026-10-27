@@ -4,7 +4,7 @@
 
 Board support for the 466 x 466 CO5300 QSPI AMOLED, CST820 touch,
 ES8311 playback, ES7210 dual-microphone capture and BOOT GPIO0.
-The component follows the 1.85B BSP directory layout and common API order.
+The component provides board initialization, display, touch and audio interfaces for the ESP32-S3-Touch-AMOLED-1.43C.
 
 Include `bsp/esp-bsp.h`. Use `bsp_init()` for the factory desktop, then inspect
 `bsp_get_init_status()` for peripheral availability. Create the desktop before

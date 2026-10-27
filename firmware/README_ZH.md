@@ -2,13 +2,13 @@
 
 [English](README.md) | [简体中文](README_ZH.md)
 
-以下固件均为合并镜像，从 **0x0** 地址烧录。选择 **ESP32-S3 / 8 MB Flash**，并使用 USB 数据线连接开发板。最新出厂固件列在最前，旧版固件保留在下方供下载。
+首次使用推荐下载下表中的最新出厂固件，体验桌面及各项 APP。所有文件均为完整合并固件，从 **0x0** 地址烧录；选择 **ESP32-S3 / 8 MB Flash**，并使用 USB 数据线连接开发板。
 
 | 文件 | 用途 |
 | --- | --- |
-| [ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20261027.bin](ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20261027.bin) | 新版出厂桌面，9 个 APP，集成小智语音交互 |
-| [ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20260420.bin](ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20260420.bin) | 原有出厂固件 v1.0，按仓库创建日期归档 |
-| [ESP32-S3-Touch-AMOLED-1.43C_XiaoZhi_v2.2.6.bin](ESP32-S3-Touch-AMOLED-1.43C_XiaoZhi_v2.2.6.bin) | 原有独立小智固件 v2.2.6，烧录后会替换桌面固件 |
+| [ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20261027.bin](ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20261027.bin) | 推荐使用：包含显示、触摸、音频测试等 9 个 APP 的桌面，支持小智语音对话 |
+| [ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20260420.bin](ESP32-S3-Touch-AMOLED-1.43C_FactoryOnly_20260420.bin) | 出厂演示固件 v1.0，用于恢复早期出厂界面 |
+| [ESP32-S3-Touch-AMOLED-1.43C_XiaoZhi_v2.2.6.bin](ESP32-S3-Touch-AMOLED-1.43C_XiaoZhi_v2.2.6.bin) | 独立小智语音对话固件 v2.2.6，烧录后进入小智应用，替换桌面固件 |
 
 安装 esptool 后，在本目录运行以下命令，将 `<PORT>` 替换为电脑识别到的串口。首次安装建议先完整擦除，这会清除原固件、配网与激活数据。
 

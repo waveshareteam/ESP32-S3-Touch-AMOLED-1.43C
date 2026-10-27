@@ -59,7 +59,7 @@
 | [05_LVGL_V8_Test](examples/arduino/examples/05_LVGL_V8_Test/README_ZH.md) | LVGL 8 控件演示与自动亮度循环 |
 | [06_LVGL_V9_Test](examples/arduino/examples/06_LVGL_V9_Test/README_ZH.md) | LVGL 9 控件演示与自动亮度循环 |
 
-Arduino 库位于 [`examples/arduino/libraries`](examples/arduino/libraries/)。LVGL 8 和 LVGL 9 是互斥的库配置，按各示例说明选择其中一套，不能同时安装；原有示例的 BSP 和功能保持原样。
+Arduino 库位于 [`examples/arduino/libraries`](examples/arduino/libraries/)。请按示例说明安装对应版本的 LVGL；同一个 Arduino 库目录中不能同时安装 LVGL 8 和 LVGL 9。
 
 ## 🛠️ 开发环境
 

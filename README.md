@@ -59,7 +59,7 @@ The desktop includes Display Test, Settings, Xiaozhi, Touch Test, Weather, Music
 | [05_LVGL_V8_Test](examples/arduino/examples/05_LVGL_V8_Test/) | LVGL 8 widgets and automatic brightness cycle |
 | [06_LVGL_V9_Test](examples/arduino/examples/06_LVGL_V9_Test/) | LVGL 9 widgets and automatic brightness cycle |
 
-Arduino libraries are in [`examples/arduino/libraries`](examples/arduino/libraries/). LVGL 8 and LVGL 9 require mutually exclusive library setups: install only the version specified by each example. Existing example BSPs and behavior are preserved.
+Arduino libraries are in [`examples/arduino/libraries`](examples/arduino/libraries/). Install only the LVGL version specified by the example; LVGL 8 and LVGL 9 cannot be installed together in the same Arduino library folder.
 
 ## 🛠️ Development Environment
 
