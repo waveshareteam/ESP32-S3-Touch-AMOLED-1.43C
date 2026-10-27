@@ -1,5 +1,7 @@
 # ESP32-S3-Touch-AMOLED-1.43C BSP
 
+[English](README.md) | [简体中文](README_ZH.md)
+
 Board support for the 466 x 466 CO5300 QSPI AMOLED, CST820 touch,
 ES8311 playback, ES7210 dual-microphone capture and BOOT GPIO0.
 The component follows the 1.85B BSP directory layout and common API order.

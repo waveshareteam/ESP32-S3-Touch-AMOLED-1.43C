@@ -1,5 +1,7 @@
 # ESP32-S3-Touch-AMOLED-1.43C Xiaozhi APP
 
+[English](README.md) | [简体中文](README_ZH.md)
+
 Connect to Wi-Fi in Settings, then open AIChats from the desktop. On first
 use, follow the activation instructions and bind the code shown on screen.
 Once ready, say "你好小智" or tap Talk to start a conversation. Tap Stop to

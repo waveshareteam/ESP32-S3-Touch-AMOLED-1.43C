@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/waveshareteam/esp32-repo-template/v1/schema/product.schema.json",
+  "product": "ESP32-S3-Touch-AMOLED-1.43C",
+  "product_url": "https://www.waveshare.net/shop/ESP32-S3-Touch-AMOLED-1.43C.htm",
+  "tier": 0,
+  "target": "esp32s3",
+  "esp_idf": {
+    "versions": [
+      "v5.5.3"
+    ]
+  },
+  "arduino": {
+    "core": "3.3.0",
+    "fqbn": "esp32:esp32:esp32s3:CDCOnBoot=cdc,FlashMode=qio,FlashSize=8M,PartitionScheme=huge_app,PSRAM=opi"
+  },
+  "factory_firmware": {
+    "esp_idf": "v5.5.4"
+  },
+  "overrides": {
+    "markdown_audit": {
+      "classification_rules": [
+        {
+          "category": "first_party_customer",
+          "patterns": [
+            "examples/factory/components/AIChats/README*.md",
+            "examples/factory/components/MicTest/README*.md",
+            "examples/factory/components/esp32_s3_touch_amoled_1_43c/README*.md"
+          ]
+        }
+      ]
+    }
+  }
+}
