@@ -1,0 +1,20 @@
+menu "ESP32-S3 Touch AMOLED 1.43C BSP"
+    config BSP_LVGL_TASK_STACK_SIZE
+        int "LVGL task stack size (bytes)"
+        range 8192 32768
+        default 16384
+        help
+            Stack for the round desktop's rendering and APP event callbacks.
+    config BSP_LCD_SPI_CLOCK_HZ
+        int "LCD QSPI clock (Hz)"
+        range 10000000 80000000
+        default 40000000
+    config BSP_LCD_BUFFER_HEIGHT
+        int "LVGL draw buffer height"
+        range 10 466
+        default 16
+    config BSP_LCD_BRIGHTNESS
+        int "Initial display brightness percentage"
+        range 0 100
+        default 100
+endmenu
