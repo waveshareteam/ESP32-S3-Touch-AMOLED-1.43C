@@ -1,0 +1,13 @@
+# LVGL 8 has no switches for these optional LVGL 9 decoders. Keep them disabled
+# when the component resolver evaluates dependencies shared by LVGL 8 and 9.
+config LV_USE_LIBPNG
+    bool "Enable the optional LVGL 9 libpng dependency"
+    default n
+
+config LV_USE_LIBJPEG_TURBO
+    bool "Enable the optional LVGL 9 libjpeg-turbo dependency"
+    default n
+
+config LV_USE_LZ4
+    bool "Enable the optional LVGL 9 LZ4 dependency"
+    default n

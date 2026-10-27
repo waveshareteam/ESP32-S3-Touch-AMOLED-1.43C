@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <Freertos/FreeRTOS.h>
+#include <freertos/FreeRTOS.h>
 #include <esp_log.h>
 #include "esp32_s3_touch_amoled_1.43c.h"
 
