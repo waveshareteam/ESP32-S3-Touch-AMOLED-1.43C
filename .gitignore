@@ -1,0 +1,25 @@
+**/.vscode
+**/.idea
+**/build
+**/managed_components
+**/dependencies.lock
+**/sdkconfig
+**/sdkconfig.old
+**/__pycache__/
+release-artifacts/
+release-downloads/
+release-dist/
+
+# Local workspace state
+.claude/
+.cursor/
+.codex/
+.gemini/
+.windsurf/
+.continue/
+.roo/
+.cline/
+.aider*
+
+# Preserve the tested factory build configuration.
+!examples/factory/sdkconfig
